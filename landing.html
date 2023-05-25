@@ -4,13 +4,32 @@
     <meta charset="UTF-8" />
     <title>Landing Page</title>
     <script src="landing.js?version=1" defer></script>
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
-      <section>
-        <h1>Welcome!</h1>
-        <p>Something about precommitments and thank you for visiting...</p>
+      <section id="commit-section">
+        <h1>Welcome to UCLA Volunteer Week</h1>
+        <p>Click below to sign up and make a pre-commitment today!</p>
         <input type="button" value="Commit!" id="commit-btn" />
+      </section>
+      <img src="images/bruinbear.jpg" alt="bruin bear" id="bruinbear" />
+      <div id="dashboard-div">
+        <p>
+          Many people have already made a pre-commitment, check out the
+          dashboard to see everyone!
+        </p>
+        <input type="button" value="Dashboard" id="dashboard-btn" />
+      </div>
+      <br />
+      <section id="tac-section">
+        <a href="terms&conditions.html">Terms and Conditions</a>
       </section>
     </main>
   </body>
