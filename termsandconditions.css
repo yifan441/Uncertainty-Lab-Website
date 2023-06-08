@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #92b4ec;
 }
 
@@ -47,4 +47,3 @@ li {
 #home-btn:hover {
   text-decoration: underline;
 }
-
