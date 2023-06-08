@@ -40,6 +40,37 @@
             <input value="" id="email" name="email" class="email" placeholder="example@gmail.com"/>
             <label for="confirmemail" class="c">Confirm Email:</label>
             <input value="" class="c" id="confirm_email" name="confirm_email" placeholder="example@gmail.com"/>
+            <label for="affiliation" class="c">Dorm Affiliation:</label>
+            <select name="affiliation" id="affiliation" class="c">
+              <option value="Canyon Point & Courtside">
+                Canyon Point & Courtside
+              </option>
+              <option value="Centennial Hall">Centennial Hall</option>
+              <option value="Delta Terrace">Delta Terrace</option>
+              <option value="De Neve East">De Neve East</option>
+              <option value="De Neve West">De Neve West</option>
+              <option value="De Neve Towers">De Neve Towers</option>
+              <option value="Dykstra Hall">Dykstra Hall</option>
+              <option value="Hedrick Hall">Hedrick Hall</option>
+              <option value="Hedrick Summit">Hedrick Summit</option>
+              <option value="Hitch Suites">Hitch Suites</option>
+              <option value="Olympic Hall">Olympic Hall</option>
+              <option value="Rieber Hall">Rieber Hall</option>
+              <option value="Rieber Terrace">Rieber Terrace</option>
+              <option value="Rieber Vista">Rieber Vista</option>
+              <option value="Saxon Suites">Saxon Suites</option>
+              <option value="Sproul Cove/Landing">Sproul Cove/Landing</option>
+              <option value="Sproul Hall">Sproul Hall</option>
+              <option value="Westwood Hills">Westwood Hills</option>
+              <option value="Gayley Heights">Gayley Heights</option>
+              <option value="Southwest">Southwest</option>
+              <option value="Weyburn/Hilgard">Weyburn/Hilgard</option>
+              <option value="Sawtelle">Sawtelle</option>
+              <option value="Sepulveda">Sepulveda</option>
+              <option value="Keystone/Mentone">Keystone/Mentone</option>
+              <option value="Venice/Barry">Venice/Barry</option>
+              <option value="Rose Ave/Clarington">Rose Ave/Clarington</option>
+            </select>
         </div>
         <input type="checkbox" id="tandc" name="tandc" />
         <label for="tandc" id="terms">
