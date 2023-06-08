@@ -7,7 +7,7 @@ body {
   background-color: white;
   text-align: center;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2%;
   width: 50%;
   padding: 40px;
   border: 15px solid #92b4ec;
@@ -40,7 +40,7 @@ body {
   position: relative;
 }
 
-label:not(#terms) {
+label:not(#terms, #tandc) {
   display: block;
   text-decoration: underline;
   text-decoration-color: #92b4ec;
@@ -51,7 +51,7 @@ label:not(#terms) {
   font-weight: bold;
 }
 
-#secondary-div input {
+#secondary-div input:not(#tandc, #signupbutton) {
   width: 100%;
   height: 20px;
   border: 1px solid #939393;
@@ -74,6 +74,11 @@ label:not(#terms) {
   color: #6891d6;
 }
 
+#terms,
+#tandc {
+  display: inline;
+}
+
 #signupbutton {
   display: block;
   margin: 0 auto;
@@ -84,7 +89,7 @@ label:not(#terms) {
   font-size: 20px;
   font-weight: bold;
   border-radius: 12px;
-  border: 1.5px solid #172b92;
+  border: 1.5px solid black;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
   cursor: pointer;
 }
