@@ -27,21 +27,33 @@
   <body>
     <main>
       <div id="main-div">
-
         <div id="secondary-div">
           <h1 id="signup-text">Welcome!</h1>
           <p id="subtext">Make a precommitment today</p>
           <form method="POST" action="signup.php">
             <label for="firstname">First name:</label>
-            <input value="" id="firstname" name="firstname" placeholder="Joe"/>
+            <input value="" id="firstname" name="firstname" placeholder="Joe" />
             <label for="lastname">Last name:</label>
-            <input value="" id="lastname" name="lastname" placeholder="Bruin"/>
+            <input value="" id="lastname" name="lastname" placeholder="Bruin" />
             <label for="email" class="email">Email:</label>
-            <input value="" id="email" name="email" class="email" placeholder="example@gmail.com"/>
+            <input
+              value=""
+              id="email"
+              name="email"
+              class="email"
+              placeholder="example@gmail.com"
+            />
             <label for="confirmemail" class="c">Confirm Email:</label>
-            <input value="" class="c" id="confirm_email" name="confirm_email" placeholder="example@gmail.com"/>
+            <input
+              value=""
+              class="c"
+              id="confirm_email"
+              name="confirm_email"
+              placeholder="example@gmail.com"
+            />
             <label for="affiliation" class="c">Dorm Affiliation:</label>
             <select name="affiliation" id="affiliation" class="c">
+              <option value="" selected disabled hidden>select a dorm</option>
               <option value="Canyon Point & Courtside">
                 Canyon Point & Courtside
               </option>
@@ -71,20 +83,21 @@
               <option value="Venice/Barry">Venice/Barry</option>
               <option value="Rose Ave/Clarington">Rose Ave/Clarington</option>
             </select>
+            <input type="checkbox" id="tandc" name="tandc" />
+            <label for="tandc" id="terms">
+              I have read and accept the
+              <a href="termsandconditions.html" target="_blank">
+                Terms and Conditions</a
+              >
+            </label>
+            <input
+              type="submit"
+              id="signupbutton"
+              name="submit_signup"
+              value="Commit!"
+            />
+          </form>
         </div>
-        <input type="checkbox" id="tandc" name="tandc" />
-        <label for="tandc" id="terms">
-          I have read and accept the
-          <a href="termsandconditions.html" target="_blank">
-            Terms and Conditions</a>
-        </label>
-          <input
-            type="submit"
-            id="signupbutton"
-            name="submit_signup"
-            value="Commit!"
-          />
-        </form>
       </div>
     </main>
   </body>

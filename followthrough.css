@@ -13,9 +13,11 @@ body {
   border: 15px solid #92b4ec;
   border-radius: 10px;
   box-shadow: 6px 6px 0px #5e88cc;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 
-#signup-text {
+#header {
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 40px;
@@ -24,10 +26,11 @@ body {
   text-decoration-color: #92b4ec;
 }
 
-#subtext {
-  margin-top: 5px;
+#instructions {
   font-size: 20px;
-  color: #939393;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 0px;
 }
 
 #secondary-div {
@@ -40,7 +43,7 @@ body {
   position: relative;
 }
 
-label:not(#terms, #tandc) {
+label:not(#no-label, #yes-label) {
   display: block;
   text-decoration: underline;
   text-decoration-color: #92b4ec;
@@ -49,9 +52,10 @@ label:not(#terms, #tandc) {
   margin-top: 20px;
   margin-bottom: 15px;
   font-weight: bold;
+  text-align: left;
 }
 
-#secondary-div input:not(#tandc, #signupbutton) {
+#secondary-div input:not(#no, #yes, #submit) {
   width: 100%;
   height: 20px;
   border: 1px solid #939393;
@@ -64,22 +68,13 @@ label:not(#terms, #tandc) {
   font-size: 15px;
 }
 
-#affiliation {
-  width: 100%;
-  height: 20px;
-  margin-bottom: 20px;
+#follow-through-prompt {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-#terms > a {
-  color: #6891d6;
-}
-
-#terms,
-#tandc {
-  display: inline;
-}
-
-#signupbutton {
+#submit {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -94,6 +89,6 @@ label:not(#terms, #tandc) {
   cursor: pointer;
 }
 
-#signupbutton:hover {
+#submit:hover {
   text-decoration: underline;
 }
